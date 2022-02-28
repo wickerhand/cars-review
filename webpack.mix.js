@@ -15,4 +15,5 @@ mix.js('resources/js/app.js', 'public/js')
     .postCss('resources/css/app.css', 'public/css', [
         //
     ])
-    .sass('resources/sass/general.scss', 'public/css/');
+    .sass('resources/sass/general.scss', 'public/assets/css/')
+    .sass('resources/sass/login.scss', 'public/assets/css/');

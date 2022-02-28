@@ -1,6 +1,81 @@
 @import "variables.scss";
 
+body{
+    margin: 0;
+    padding-bottom: 70px;
+}
+
+ul{
+    list-style: none;
+}
+
 h1{
     color: $primary-color;
     font-family: $title-font;
+}
+
+a{
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: $text-font;
+    text-decoration: none;
+}
+
+.btn-primary{
+    padding: 5px 10px;
+    background: $btn-primary-background;
+    color: $btn-primary-color;
+    border-radius: 5px;
+}
+
+.center
+{
+    max-width: 1140px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 40px;
+    border-bottom: 2px solid $secundary-color;
+    .logo{
+        display: inline-flex;
+        &_item{
+            font-family: $title-font;
+            font-size: 25px;
+            font-weight: bold;
+            &--span{
+                color: $secundary-color;
+            }
+        }
+    }
+    .navigation{
+        display: inline-flex;
+        &__list{
+            &--item{
+                display: inline-block;
+            }
+        }
+    }
+    .buttons{
+        a{
+            margin: 10px;
+        }
+    }
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: $secundary-color;
+    padding: 0 40px;
+    border-top: 2px solid $primary-color;
+    p{
+        color: #fff;
+    }
 }
