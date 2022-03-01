@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding-top: 81px;
   padding-bottom: 70px;
 }
 
@@ -12,11 +13,20 @@ h1 {
   font-family: "Kalam", sans-serif;
 }
 
+p {
+  font-family: "Roboto", sans-serif;
+}
+
 a {
   display: inline-block;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   text-decoration: none;
+}
+
+label {
+  font-family: "Roboto", sans-serif;
+  color: #2d3037;
 }
 
 .btn-primary {
@@ -34,6 +44,9 @@ a {
 }
 
 header {
+  position: absolute;
+  width: 100%;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -61,12 +74,24 @@ header .navigation__list--item {
 header .buttons a {
   margin: 10px;
 }
+header .buttons .btn-cadastre {
+  color: #2d3037;
+  text-decoration: underline;
+}
+header .buttons .btn-primary {
+  box-shadow: 0px 0px 10px 3px rgba(243, 18, 60, 0.6);
+  transition: 0.3s;
+}
+header .buttons .btn-primary:hover {
+  box-shadow: 0px 0px 5px 3px rgba(243, 18, 60, 0.6);
+}
 
 footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   background: #f3123c;
+  box-sizing: border-box;
   padding: 0 40px;
   border-top: 2px solid #2d3037;
 }

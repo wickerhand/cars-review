@@ -4,18 +4,18 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class LoginController extends Controller
+class SignupController extends Controller
 {
     public function render()
     {
         //Array that contais the path of js files that will be rendered in this page
-        $jsFiles = ['/js/login.js'];
+        $jsFiles = ['/js/signup.js'];
         
         //Array that contais the path of css files that will be rendered in this page
-        $cssFiles = ['/css/login.css', '/css/form.css'];
+        $cssFiles = ['/css/signup.css', '/css/form.css'];
 
         $arrayView = array(
-            'page' => 'login',
+            'page' => 'signup',
             'jsFiles' => $jsFiles,
             'cssFiles' => $cssFiles
         );

@@ -19333,6 +19333,32 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/signup.scss":
+/*!************************************!*\
+  !*** ./resources/sass/signup.scss ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./resources/sass/form.scss":
+/*!**********************************!*\
+  !*** ./resources/sass/form.scss ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/css/app.css":
 /*!*******************************!*\
   !*** ./resources/css/app.css ***!
@@ -19663,6 +19689,8 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 		var installedChunks = {
 /******/ 			"/js/app": 0,
 /******/ 			"css/app": 0,
+/******/ 			"assets/css/form": 0,
+/******/ 			"assets/css/signup": 0,
 /******/ 			"assets/css/login": 0,
 /******/ 			"assets/css/general": 0
 /******/ 		};
@@ -19714,10 +19742,12 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/app","assets/css/login","assets/css/general"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","assets/css/login","assets/css/general"], () => (__webpack_require__("./resources/sass/general.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","assets/css/login","assets/css/general"], () => (__webpack_require__("./resources/sass/login.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app","assets/css/login","assets/css/general"], () => (__webpack_require__("./resources/css/app.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","assets/css/form","assets/css/signup","assets/css/login","assets/css/general"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","assets/css/form","assets/css/signup","assets/css/login","assets/css/general"], () => (__webpack_require__("./resources/sass/general.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","assets/css/form","assets/css/signup","assets/css/login","assets/css/general"], () => (__webpack_require__("./resources/sass/login.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","assets/css/form","assets/css/signup","assets/css/login","assets/css/general"], () => (__webpack_require__("./resources/sass/signup.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","assets/css/form","assets/css/signup","assets/css/login","assets/css/general"], () => (__webpack_require__("./resources/sass/form.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app","assets/css/form","assets/css/signup","assets/css/login","assets/css/general"], () => (__webpack_require__("./resources/css/app.css")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

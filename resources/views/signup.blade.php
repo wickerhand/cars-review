@@ -1,6 +1,14 @@
-<div class="login card-authentication">
-    <h1>Login</h1>
+<div class="signup card-authentication">
+    <h1>Cadastro</h1>
     <form class="login_form form" method="post" autocomplete="off">
+        <label for="first_name" class="login_form--label">Nome</label>
+        <div class="form_input">
+            <input class="form_input--input" type="text" id="first_name" name="first_name">
+        </div>
+        <label for="last_name" class="login_form--label">Sobrenome</label>
+        <div class="form_input">
+            <input class="form_input--input" type="text" id="last_name" name="last_name">
+        </div>
         <label for="email" class="login_form--label">E-mail</label>
         <div class="form_input">
             <input class="form_input--input" type="text" id="email" name="email">
@@ -11,5 +19,4 @@
         </div>
         <button type="submit" class="btn-primary">Enviar</button>
     </form>
-    <p>Ainda não possui uma conta? <a class="register-link" href="{{url('/registrar')}}">Cadastre-se!</a></p>
 </div>

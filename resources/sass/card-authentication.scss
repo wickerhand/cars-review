@@ -1,0 +1,13 @@
+@import "variables.scss";
+
+.card-authentication{
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+
+    .register-link{
+        color: $secundary-color;
+        text-decoration: underline;
+    }
+}

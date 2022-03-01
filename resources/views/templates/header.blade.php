@@ -15,7 +15,11 @@
     @endif
     <!-- CSS -->
     <link rel="stylesheet" href="{{ asset('/public/assets/css/general.css') }}">
-    
+    @if($jsFiles)
+        @for ($i =0 ; $i < count($cssFiles); $i++)
+            <link rel="stylesheet" href="{{ asset('/public/assets'.$cssFiles[$i]) }}">
+        @endfor
+    @endif
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
@@ -34,7 +38,7 @@
     </nav>
     -->
     <div class="buttons">
-        <a href="{{url('/signup')}}" class="buttons_item">Cadastrar</a>
+        <a href="{{url('/signup')}}" class="buttons_item btn-cadastre">Cadastre-se</a>
         <a href="{{url('/login')}}" class="buttons_item btn-primary">Entrar</a>
     </div>
 </header>

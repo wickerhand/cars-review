@@ -16,4 +16,6 @@ mix.js('resources/js/app.js', 'public/js')
         //
     ])
     .sass('resources/sass/general.scss', 'public/assets/css/')
-    .sass('resources/sass/login.scss', 'public/assets/css/');
+    .sass('resources/sass/login.scss', 'public/assets/css/')
+    .sass('resources/sass/signup.scss', 'public/assets/css/')
+    .sass('resources/sass/form.scss', 'public/assets/css/');
